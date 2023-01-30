@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+h1{
+    font-size: 40px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    background-color: #1BB295;
+}
+.wrapper{
+    text-align: center;
+    width: 50vw;
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #068d72;
+    color: white;
+}
+@media (max-width: 960px) {
+    h1{
+        font-size: 35px;
+    }
+    .wrapper{
+        width: 60vw;
+    }
+}
+@media (max-width: 850px) {
+    .wrapper{
+        width: 70vw;
+        height: 70vw;
+    }
+    .card{
+        width: 220px;
+        height: 200px;
+    }
+}
+@media (max-width: 750px) {
+    .wrapper{
+        width: 70vw;
+        height: 70vw;
+    }
+    .card{
+        width: 190px;
+        height: 180px;
+    }
+}
+@media (max-width: 700px) {
+    .wrapper{
+        width: 75vw;
+        height: 80vw;
+    }
+}
+@media (max-width: 615px) {
+    .wrapper{
+        width: 80vw;
+        height: 85vw;
+    }
+    .card{
+        width: 170px;
+        height: 150px;
+    }
+}
+@media (max-width: 615px) {
+    .card{
+        margin: 10px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .wrapper{
+        width: 90vw;
+    }
+    h1{
+        margin-bottom: 5px;
+    }
+    .card{
+        margin: 10px;
+    }
+}
+@media (max-width: 450px) {
+    .wrapper{
+        height: 50vh;
+    }
+    a{
+        font-size: 16px;
+    }
+    .card{
+        margin: 10px;
+        width: 120px;
+        height: 130px;
+    }
+}
+@media (max-width: 350px) {
+    a{
+        font-size: 13px;
+    }
+    .card{
+        height: 100px;
+        width: 100px;
+    }
+}
+@media (max-width: 280px) {
+    .wrapper{
+        height: 50vh;
+    }
+    .card{
+        margin: 5px;
+        height: 80px;
+        width: 80px;
+    }
+}
